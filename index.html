@@ -10,7 +10,7 @@
   <section>
     <img src="./imagens/jogo_background.jpg" alt="">
     <h1>
-     Jogue Pedra Papel Tezoura
+     Jogue Pedra Papel Tesoura
       </h1>
       <h3>Faça sua escolha:</h3>
       
@@ -96,7 +96,7 @@ if (randomNumber3 >=0 && randomNumber3 < 1 / 3 ){
 }else if (randomNumber3 >= 1 / 3 && randomNumber3 < 2 / 3 ){
  computerMove3 = 'Papel'
 }else if (randomNumber3 >= 2 / 3 && randomNumber3 < 1 ){
- computerMove2 = 'tesoura' 
+ computerMove3 = 'tesoura' 
 }
 
 let result3 = '';
@@ -109,11 +109,8 @@ if (computerMove3 === 'Pedra' ){
 } else if (computerMove3 === 'tesoura'){
   result3 = 'empate'
 }
-alert(`você escolheu Tezoura e o computador escolheu ${computerMove3}: ${result3}`)
-if (result3 === 'você Ganhou'){
-  console.log(EventCounts(result3))
-}
-">
+alert(`você escolheu Tesoura e o computador escolheu ${computerMove3}: ${result3}`)
+ ">
   
   <img class="maosT" src="./imagens/tezoura.png"><br> Tesoura
 </button>  
