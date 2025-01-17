@@ -1,0 +1,63 @@
+body{
+  background: rgb(220, 199, 176);
+}
+
+section {
+  width: 100%px;
+  height: 770px;
+ align-content: center;
+ text-align: center;
+ background:  rgba(243, 194, 142, 0.439);
+ 
+ }
+h1{
+  font-family: monospace;
+  font-weight: 800;
+  font-size: 28px;
+  color: rgb(45, 45, 46);
+}
+h3{
+  font-family: monospace;
+  font-weight: 800;
+  font-size: 25px;
+  color: rgb(45, 45, 46);
+}
+ img{
+  width: 400px;
+ align-self: center;
+ border: 1px solid black;
+ border-radius: 2px;
+ 
+}
+
+.maos {
+  width: 50px;
+  border-radius: 2px;
+}
+.maosT{
+  width: 43px;
+  border-radius: 2px;
+}
+
+
+button{
+  background: rgb(238, 178, 114);
+  color: aliceblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+}
+button:hover{
+  border:2px solid rgb(8, 1, 17);
+  color: rgb(118, 115, 115);
+  width: 78px;
+}
+
+
+footer{
+  text-align: center;
+  font-family: monospace;
+  font-weight: 800;
+  font-size: 15px;
+  color: rgb(45, 45, 46);
+}
